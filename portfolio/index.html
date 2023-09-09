@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body class="font-body">
+    
+    <nav class="w-full h-20 px-3 py-4 justify-between items-center gap-10 inline-flex sticky">
+        
+        <div class="w-1/3 h-full justify-start items-center">
+                <a href="./index.html">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.2 21.1999C19.2 20.0954 20.0954 19.2 21.2 19.2H26.8C27.9045 19.2 28.7999 20.0954 28.7999 21.2V26.8C28.7999 27.9045 27.9045 28.7999 26.8 28.7999H21.1999C20.0954 28.7999 19.2 27.9045 19.2 26.8V21.1999Z" fill="#6486FF"/>
+                  <path d="M0 14.4283C0 12.6465 2.15428 11.7542 3.41421 13.0141L9.01421 18.6141C9.38929 18.9892 9.6 19.4979 9.6 20.0283V28.7999V36.3999C9.6 37.5045 10.4954 38.3999 11.6 38.3999H27.9716C28.502 38.3999 29.0107 38.6106 29.3858 38.9857L34.9858 44.5857C36.2457 45.8456 35.3534 47.9999 33.5716 47.9999H2C0.89543 47.9999 0 47.1045 0 45.9999V28.7999V14.4283Z" fill="#1D1D1D"/>
+                  <path d="M14.4283 0C12.6465 0 11.7542 2.15428 13.0141 3.41421L18.6141 9.01421C18.9892 9.38929 19.4979 9.6 20.0283 9.6H36.3999C37.5045 9.6 38.3999 10.4954 38.3999 11.6L38.3999 27.9716C38.3999 28.502 38.6106 29.0107 38.9857 29.3858L44.5857 34.9858C45.8456 36.2457 47.9999 35.3534 47.9999 33.5716V2C47.9999 0.895431 47.1045 0 45.9999 0H14.4283Z" fill="#1D1D1D"/>
+                  </svg>                  
+                </a> 
+        </div>
+        
+        <ul class="w-1/3 h-full justify-center items-center gap-4 inline-flex">
+            <li>
+                <button class="text-center text-slate-800 hover:text-primary font-bold w-20 px-4 py-3 justify-center items-center gap-2.5">
+                    <a href="./index.html">Work</a>
+                </button>
+            </li>
+            <li>
+                <button class="text-center text-slate-400 hover:text-primary font-bold px-4 py-3 justify-center items-center gap-2.5">
+                    <a href="./about.html">About me</a>
+                </button>
+            </li>
+        </ul>
+
+        <div class="w-1/3 h-full justify-end items-center gap-6 inline-flex">
+            <button class="px-4 py-3 bg-primary hover:bg-indigo-500 justify-start rounded-lg items-center gap-2.5 font-bold text-white text-center">
+                <a href="./contact.html">Hire me</a>
+            </button>
+            
+            <button>
+                <a href="">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="46" height="46" rx="8" fill="#EFF1F1"/>
+                    <path d="M23.0205 32.0001C20.4981 32.0001 18.3641 31.1273 16.6185 29.3817C14.8728 27.636 14 25.502 14 22.9796C14 20.6743 14.7517 18.6739 16.2551 16.9784C17.7586 15.2829 19.6796 14.2931 22.0183 14.0092C22.4359 13.959 22.7616 14.1094 22.9955 14.4602C23.2294 14.811 23.221 15.1785 22.9704 15.5627C22.6865 15.997 22.4735 16.4564 22.3315 16.9408C22.1895 17.4253 22.1185 17.9348 22.1185 18.4693C22.1185 19.9727 22.6447 21.2506 23.6971 22.303C24.7495 23.3554 26.0274 23.8816 27.5308 23.8816C28.0487 23.8816 28.5623 23.8065 29.0718 23.6561C29.5813 23.5058 30.0365 23.297 30.4374 23.0297C30.7882 22.7958 31.1474 22.7833 31.5149 22.9921C31.8824 23.2009 32.0411 23.5308 31.991 23.9819C31.7571 26.2871 30.7757 28.1998 29.0468 29.7199C27.3178 31.2401 25.3091 32.0001 23.0205 32.0001Z" fill="#444747"/>
+                    </svg>                        
+                </a>
+            </button>
+        </div>
+    </nav>
+
+    <div class="w-2/3 h-auto justify-between">
+        <div class="rounded-full w-1/2 inline-flex w-80 h-80 overflow-hidden">
+            <img src="./src/profile.jpeg" alt="profile">
+        </div>
+        <div class="w-1/2 inline-flex">
+            <div class="font-bold text-5xl inline-block text-slate-600">Hi I'm <span class="text-primary">Long Tran</span></div>
+            <div class="m-2 font-semibold text-xl">Product Designer</div>
+            <div class="max-w-3xl mx-auto px-4 text-zinc-800">Hi there! I’m a UI/UX designer with 3 years of experience in designing digital products. I’m passionate about creating user-centered designs that are both visually appealing and easy to use. I have experience working with cross-functional teams including product managers, developers, and other designers. I’m excited to bring my skills and experience to a product company where I can help create innovative and engaging products that users will love.
+            </div>
+        </div>
+          <div class="m-2 gap-4 flex justify-center">
+              <div class="inline-block">
+                  <a href="https://www.behance.net/trnminhhonglong">
+                      <svg class="text-gray-700 hover:text-primary" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14.2312 13.6125H10.4062V16.5938H14.0062C14.625 16.5938 15.1875 16.425 15.1875 15.0187C15.1875 13.6125 14.2312 13.6125 14.2312 13.6125Z" class="fill-current"/>
+                          <path d="M10.35 22.1062H14.0062C14.5687 22.1062 15.5812 21.9375 15.6375 20.3625C15.6375 18.5625 14.2312 18.5625 14.2312 18.5625H10.35V22.1062Z" class="fill-current"/>
+                          <path d="M24.075 16.5375C22.05 16.5375 21.7688 18.5625 21.7688 18.5625H26.1C26.1 18.5625 26.1 16.5375 24.075 16.5375Z" class="fill-current"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H36V36H0V0ZM17.9437 14.7375C17.9437 17.1 15.9187 17.2687 15.9187 17.2687C18.2782 17.2687 18.404 19.8031 18.4357 20.4424C18.4403 20.5347 18.4429 20.5875 18.45 20.5875C18.45 24.6375 14.2312 24.525 14.2312 24.525H7.3125V11.25H14.2312C16.3125 11.25 17.9437 12.375 17.9437 14.7375ZM26.6624 12.0375H21.2062V13.6688H26.6624V12.0375ZM18.9 19.7437C18.9 19.7437 18.9 14.625 24.0188 14.625C29.4188 14.625 28.6313 20.3625 28.575 20.3625H21.7125C21.7125 22.8375 24.075 22.6687 24.075 22.6687C26.2688 22.6687 26.2125 21.2625 26.2125 21.2625H28.575C28.575 25.0875 24.0188 24.8062 24.0188 24.8062C18.5625 24.8062 18.9 19.7437 18.9 19.7437Z" class="fill-current"/>
+                      </svg>    
+                  </a> 
+              </div>
+              <div class="inline-block">
+                  <a href="https://github.com/jakelong1995">
+                      <svg class="text-gray-700 hover:text-primary" width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0)">
+                          <path d="M19.2144 0C9.03598 0 0.782288 8.25216 0.782288 18.4321C0.782288 26.576 6.06366 33.4851 13.3873 35.9224C14.3085 36.093 14.6467 35.5225 14.6467 35.0357C14.6467 34.5961 14.6296 33.1442 14.6217 31.604C9.49382 32.719 8.41178 29.4292 8.41178 29.4292C7.57332 27.2987 6.36523 26.7322 6.36523 26.7322C4.69288 25.5882 6.49129 25.6117 6.49129 25.6117C8.34219 25.7418 9.31679 27.5112 9.31679 27.5112C10.9607 30.3291 13.6288 29.5144 14.6806 29.0434C14.846 27.8521 15.3237 27.039 15.8508 26.5787C11.7568 26.1126 7.45306 24.5321 7.45306 17.4695C7.45306 15.4571 8.1731 13.8128 9.35219 12.522C9.16082 12.0578 8.52991 10.183 9.53075 7.64415C9.53075 7.64415 11.0786 7.14876 14.6009 9.53351C16.0712 9.12512 17.648 8.92031 19.2144 8.91329C20.7809 8.92031 22.3589 9.12512 23.8319 9.53351C27.35 7.14876 28.8957 7.64415 28.8957 7.64415C29.899 10.183 29.2678 12.0578 29.0764 12.522C30.2582 13.8128 30.9734 15.4571 30.9734 17.4695C30.9734 24.5489 26.6614 26.1077 22.557 26.5641C23.2181 27.1361 23.8072 28.2578 23.8072 29.9774C23.8072 32.4437 23.7858 34.4286 23.7858 35.0357C23.7858 35.5262 24.1176 36.1009 25.0519 35.9199C32.3716 33.4799 37.6463 26.5732 37.6463 18.4321C37.6463 8.25216 29.3938 0 19.2144 0ZM7.68573 26.257C7.64513 26.3486 7.50106 26.376 7.36982 26.3132C7.23613 26.253 7.16104 26.1282 7.20438 26.0363C7.24406 25.942 7.38844 25.9157 7.52182 25.9789C7.65582 26.0391 7.73212 26.1651 7.68573 26.257ZM8.59238 27.066C8.50448 27.1475 8.33264 27.1096 8.21604 26.9808C8.09547 26.8523 8.07289 26.6805 8.16201 26.5978C8.25267 26.5163 8.41932 26.5544 8.54019 26.6829C8.66076 26.813 8.68426 26.9836 8.59238 27.066ZM9.21439 28.1011C9.10145 28.1795 8.91679 28.106 8.80263 27.942C8.6897 27.7781 8.6897 27.5816 8.80507 27.5028C8.91953 27.4241 9.10145 27.4949 9.21713 27.6576C9.32976 27.8242 9.32976 28.0208 9.21439 28.1011ZM10.2663 29.2998C10.1653 29.4113 9.95011 29.3813 9.79261 29.2293C9.63145 29.0807 9.58658 28.8698 9.68791 28.7584C9.79017 28.6467 10.0066 28.6781 10.1653 28.8289C10.3252 28.9772 10.3741 29.1897 10.2663 29.2998ZM11.6258 29.7045C11.5813 29.8489 11.374 29.9145 11.1653 29.8532C10.9568 29.79 10.8204 29.6209 10.8625 29.475C10.9058 29.3297 11.114 29.2613 11.3243 29.327C11.5324 29.3899 11.6692 29.5577 11.6258 29.7045ZM13.173 29.8762C13.1782 30.0282 13.0012 30.1543 12.782 30.157C12.5617 30.1619 12.3834 30.0389 12.381 29.8893C12.381 29.7358 12.554 29.611 12.7744 29.6073C12.9936 29.603 13.173 29.7251 13.173 29.8762ZM14.693 29.8179C14.7192 29.9663 14.5669 30.1186 14.3493 30.1592C14.1353 30.1983 13.9373 30.1067 13.9101 29.9596C13.8835 29.8076 14.0386 29.6553 14.2522 29.6159C14.4702 29.578 14.6652 29.6672 14.693 29.8179Z" class="fill-current"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0">
+                          <rect width="36.864" height="36" fill="white" transform="translate(0.782288)"/>
+                          </clipPath>
+                          </defs>
+                      </svg>    
+                  </a>
+              </div>
+              <div class="inline-block">
+                  <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-minh-ho%C3%A0ng-long-b74448121/">
+                      <svg class="text-gray-700 hover:text-primary" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M30.6737 30.6744H25.3396V22.3208C25.3396 20.3288 25.3041 17.7644 22.5654 17.7644C19.7872 17.7644 19.3621 19.9348 19.3621 22.1757V30.6739H14.028V13.4953H19.1488V15.843H19.2204C19.7329 14.9667 20.4734 14.2459 21.3632 13.7572C22.2529 13.2686 23.2585 13.0304 24.2728 13.068C29.6791 13.068 30.6759 16.6242 30.6759 21.2506L30.6737 30.6744ZM8.00944 11.1472C7.39722 11.1473 6.7987 10.9658 6.2896 10.6258C5.7805 10.2857 5.38369 9.80234 5.14931 9.23675C4.91492 8.67115 4.85349 8.04876 4.97282 7.44826C5.09215 6.84776 5.38687 6.29614 5.8197 5.86314C6.25253 5.43015 6.80403 5.13523 7.40446 5.01568C8.0049 4.89613 8.62728 4.95732 9.19294 5.19151C9.7586 5.4257 10.2421 5.82238 10.5823 6.33137C10.9226 6.84037 11.1042 7.43883 11.1043 8.05107C11.1044 8.45758 11.0244 8.86012 10.8689 9.23572C10.7134 9.61132 10.4855 9.95261 10.1981 10.2401C9.91071 10.5276 9.56949 10.7557 9.19396 10.9113C8.81843 11.0669 8.41594 11.1471 8.00944 11.1472ZM10.6765 30.6744H5.33685V13.4953H10.6765V30.6744ZM33.333 0.00245274H2.65649C1.96022 -0.00540493 1.28928 0.263495 0.79116 0.750064C0.293043 1.23663 0.00849759 1.90106 0 2.59735V33.4021C0.00820675 34.0988 0.292585 34.7636 0.790685 35.2507C1.28879 35.7378 1.95987 36.0072 2.65649 35.9998H33.333C34.031 36.0085 34.7039 35.7399 35.204 35.2528C35.7041 34.7658 35.9903 34.1001 36 33.4021V2.59512C35.99 1.89746 35.7036 1.23227 35.2035 0.745716C34.7034 0.25916 34.0306 -0.00897215 33.333 0.000229233" class="fill-current"/>
+                      </svg>    
+                  </a>
+              </div>
+          </div>  
+    </div>
+    <div class="grid sm:grid-cols-2 gap-3 my-6 sm:px-0 px-4">
+          <div class="rounded-lg overflow-hidden relative">
+              <a href="https://www.behance.net/gallery/114150753/Healthy-Doctor-Appointment-app">
+                  <div class="transition-all text-white text-2xl font-bold bg-primary absolute opacity-0 hover:opacity-95 inset-0 flex items-center justify-center text-center">
+                      Healthy <br> Doctor Booking App
+                  </div>
+              </a>
+              <img src="./images/Healthy Medical Booking App.png" alt="hinh 1">
+          </div>
+          <div class="rounded-lg overflow-hidden relative">
+              <a href="hhttps://www.behance.net/gallery/104522395/Journey-to-the-West-Poker-Cards">
+                  <div class="transition-all text-white text-2xl font-bold bg-primary absolute opacity-0 hover:opacity-95 inset-0 flex items-center justify-center text-center">
+                      Journey to the West <br> Poker Cards
+                  </div>
+              </a>
+              <img src="./images/Journey to the west.jpg" alt="hinh 1">
+          </div>
+          <div class="rounded-lg overflow-hidden relative">
+              <a href="https://www.behance.net/gallery/109009805/Dope-Shop-Local-Brand">
+                  <div class="transition-all text-white text-2xl font-bold bg-primary absolute opacity-0 hover:opacity-95 inset-0 flex items-center justify-center text-center">
+                      Dope Shop <br> Clothing Brand Identity
+                  </div>
+              </a>
+              <img src="./images/Dope.png" alt="hinh 1">
+          </div>
+          <div class="rounded-lg overflow-hidden relative">
+              <a href="https://www.behance.net/gallery/109010361/Say-Shoes-Sneakers-Store">
+                  <div class="transition-all text-white text-2xl font-bold bg-primary absolute opacity-0 hover:opacity-95 inset-0 flex items-center justify-center text-center">
+                      Say Shoes! <br> Sneakers Store Branding
+                  </div>
+              </a>
+              <img src="./images/Sayshoes.png" alt="hinh 1">
+          </div>
+          <div class="pt-4">© 2021. All Rights Reserved to Long Tran.</div>
+    </div>
+</body>
+</html>
