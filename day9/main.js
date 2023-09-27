@@ -20,7 +20,7 @@ function truncateText(text) {
 //bai 4
 function firstUppercase (text) {
   text = text.toString();
-  text.charAt(0).toUpperCase() + string.slice(1);
+  text.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
 
 //bai 5
