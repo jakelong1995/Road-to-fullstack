@@ -68,3 +68,20 @@ let myArray = [1, 2, 3, 4, 5];
 let jsonString = JSON.stringify(myArray);
 
 console.log(jsonString);
+
+
+let shoppingCart1 = [
+    {name: "iPhone", price: 999},
+    {name: "Macbook Pro", price: 1999},
+    {name: "Airpods", price: 199},
+    {name: "iPad", price: 799},
+];
+
+let totalPrice1 = 0;
+
+for (let index = 0; index < shoppingCart1.length; index++) {
+    totalPrice1 += shoppingCart1[index].price;
+    
+}
+
+console.log(totalPrice1);
