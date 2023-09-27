@@ -1,4 +1,43 @@
-const myStudents = ["hoang","hong","truc","kien"];
+//bai 1
+function sq(num) {
+    return num * num;
+  }
+
+//bai 2
+function century(year) {
+    return  Math.ceil(year/100)
+}
+
+//bai 3
+function truncateText(text) {
+  text = text.toString();
+  if (text.length > 10) {
+    return text.substring(0, 10) + '...';
+  }
+  return text;
+}
+
+//bai 4
+function firstUppercase (text) {
+  text = text.toString();
+  text.charAt(0).toUpperCase() + string.slice(1);
+}
+
+//bai 5
+function smallest(array) {
+  let smallest = array[0];
+  for (let index = 1; index < array.length; index++) {
+    if (array[index] < smallest) {
+      smallest = array[index];
+    }
+  }
+  return smallest;
+}
+
+//bai 6
+function sortNames(names) {
+  return names.sort();
+}const myStudents = ["hoang","hong","truc","kien"];
 const car = {
     brand: "Toyota",
     year: 2022,
